@@ -95,11 +95,12 @@
       <div class="section-kicker"><span>04 / CONTACT</span><span>GOOD THINGS START WITH A HELLO</span></div>
       <div class="contact-grid"><div><p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p><h2>Have a project?<br><span class="muted">Let's talk.</span></h2><p class="contact-note">Have an idea, an opportunity or just want to connect? My inbox is open.</p><a class="email-link" href="mailto:gudla0098@gmail.com">gudla0098@gmail.com <span>↗</span></a></div>
         <form class="contact-form" id="contact-form">
+          <div class="form-trap" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
           <label for="name">YOUR NAME</label><input id="name" name="name" placeholder="What should I call you?" required>
           <label for="email">YOUR EMAIL</label><input id="email" name="email" type="email" placeholder="you@example.com" required>
           <label for="subject">SUBJECT</label><input id="subject" name="subject" placeholder="What's this about?" required>
           <label for="message">MESSAGE</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea>
-          <button class="button button-dark submit-button" type="submit">Send a message <span>↗</span></button><p class="form-note">This opens your email app with your message ready to send.</p>
+          <button class="button button-dark submit-button" type="submit">Send a message <span>↗</span></button><p class="form-note" id="form-status" role="status" aria-live="polite">Your message will be sent securely to Raju’s inbox.</p>
         </form>
       </div>
     </section>
